@@ -26,7 +26,7 @@ function App() {
   const textColor = isDarkMode ? "white" : "black"
   const checked = isDarkMode ? true : false
 
-  console.log(process.env);
+
 
   // First dictionary API that returns random 5-letter word
   useEffect(() => {
