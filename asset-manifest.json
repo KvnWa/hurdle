@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hurdle/static/css/main.f16a67fa.css",
+    "main.js": "/hurdle/static/js/main.8cb54bec.js",
+    "index.html": "/hurdle/index.html",
+    "main.f16a67fa.css.map": "/hurdle/static/css/main.f16a67fa.css.map",
+    "main.8cb54bec.js.map": "/hurdle/static/js/main.8cb54bec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f16a67fa.css",
+    "static/js/main.8cb54bec.js"
+  ]
+}
