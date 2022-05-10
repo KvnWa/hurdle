@@ -1,0 +1,190 @@
+body {
+  background-color: black ;
+}
+
+.appbar {
+  /* Allows for modal to be brought to front of appbar */
+  z-index: 1 !important;
+}
+
+.logo { 
+  margin: auto;
+  justify-content: center;
+  height: 65px;
+}
+
+.letter-tile {
+  display: inline-block;
+  border: 2px solid ;
+  margin: 3px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.correct {
+  background-color: #538d4f !important;
+  border: solid #538d4f;
+  color: white;
+}
+
+.present {
+  background-color: #b59f3b !important;
+  border: solid #b59f3b;
+  color: white;
+}
+
+.absent {
+  background-color: #696966 !important;
+  border: solid #696966;
+  color: white;
+  
+}
+
+.empty {
+  background-color: black;
+  border: solid black;
+  color:white;
+}
+
+.example {
+  padding-left: 12px;
+}
+
+.home-button {
+  color: white
+}
+
+.guess {
+  display: flex;
+}
+
+.letter-container {
+  max-width: max-content;
+  margin: 2rem auto;
+  transform: translate(0%, 9%);
+}
+
+.dictionary-entry {
+  text-align: center;
+  transform: translate(0%, 40%);
+  animation: fadeIn linear 2s;
+}
+
+.length-container {
+  text-align: center;
+  transform: translate(0%, 200%);
+}
+
+.length-buttons {
+  padding: 5px;
+}
+
+.favorite-container {
+  display: flex;
+  justify-content: center;
+}
+
+.key-item {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-color: whitesmoke;
+  font: bold;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  transform: translate(0%, 15%);
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 8px;
+  box-shadow: 5px 5px grey;
+}
+  
+.key-list {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 50%;
+}
+
+.favorite-item {
+  padding-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes flipping {
+  0% {
+      transform: rotateX(0deg);
+  }
+  25% {
+    transform: rotateX(45deg);
+  }
+  50% {
+      transform: rotateX(90deg);
+  }
+  75%{
+    transform: rotateX(135);
+  }
+  100% {
+      transform: rotateX(0deg);
+  }
+}
+
+.flip0 {
+  animation: 0.5s linear flipping;
+  transition-delay: 250ms;
+}
+
+.flip1 {
+  animation: 0.5s linear flipping;
+  animation-delay: .5s;
+  transition-delay: 750ms;
+}
+
+.flip2 {
+  animation: 0.5s linear flipping;
+  animation-delay: .75s;
+  transition-delay: 1000ms;
+}
+
+.flip3 {
+  animation: 0.5s linear flipping;
+  animation-delay: 1s;
+  transition-delay: 1250ms;
+}
+
+.flip4 {
+  animation: 0.5s linear flipping;
+  animation-delay: 1.25s;
+  transition-delay: 1500ms;
+  
+}
+
+.flip5 {
+  animation: 0.5s linear flipping;
+  animation-delay: 1.5s;
+  transition-delay: 1750ms;
+}
+
+.flip6 {
+  animation: 0.5s linear flipping;
+  animation-delay: 1.75s;
+  transition-delay: 2000ms;
+}
+
+.flip7 {
+  animation: 0.5s linear flipping;
+  animation-delay: 2s;
+  transition-delay: 2250ms;
+}
+/* 
+.winner-modal {
+  z-
+} */
