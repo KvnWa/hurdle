@@ -2,6 +2,9 @@
 
 Like Wordle, but harder
 
+## Live Demo
+https://kvnwa.github.io/hurdle/#/
+
 ## Languages/technologies
 
 * React
